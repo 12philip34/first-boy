@@ -1,0 +1,110 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+
+}
+#facts{
+    background-color: wheat;
+    text-align: center;
+    padding: 2px;
+    text-transform: uppercase;
+    word-spacing: 1em;
+    text-shadow: 3px 3px gold;
+    text-decoration: underline;
+}
+#main{
+    background-color: rgba(165, 42, 42, 0.46);
+    padding: 2em;
+    border: 3px double white;
+    color: white;
+}
+#content>h1{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 3px 3px blue;
+}
+#content{
+    padding: 1em;
+    color: white;
+    font-size: 2em;
+    border: 3px double white;
+}
+.lots{
+    background-color: dimgrey;
+    padding: 3px;
+}
+.header{
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.lots>p{
+    color: black;
+}
+.h2 {
+    color: lightblue !important;
+    text-transform: uppercase;
+}
+.h1{
+   font-style: italic;
+    font-size: 2em;
+    color: blueviolet!important;
+}
+.body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgba(222, 196, 55, 0.87);
+}
+@media screen and (min-width: 100px) and (max-width: 425px){
+    .container{
+        display: block;
+        width: 100%;
+    }
+    #main{
+        font-size: medium;
+        background-color: black;
+    }
+    #content{
+        font-size: medium;
+    }
+    .h2{
+        font-size: large;
+        color: gold!important;
+    }
+    #facts{
+        background-color: white;s
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 1024px){
+    .container{
+        display: block;
+        width: 100%;
+
+    }
+    .lots{
+        background-color: darkolivegreen;
+        padding: 3px;
+    }
+    #main{
+        font-size: medium;
+        background-color: rgba(66, 75, 66, 0.78);
+        border: 3px dotted gold;
+    }
+    #content{
+        font-size: medium;
+        border: 3px dotted gold;
+
+    }
+    .h2{
+        font-size: large;
+        color: aqua!important;
+    }
+    #facts{
+        background-color: white;s
+    }
+    #content>h1{
+        color: midnightblue;
+        text-shadow: 3px 3px white;
+    }
+}
