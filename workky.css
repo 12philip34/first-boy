@@ -5,7 +5,7 @@
 
 }
 #facts{
-    background-color: wheat;
+    background-color: black;
     text-align: center;
     padding: 2px;
     text-transform: uppercase;
@@ -14,7 +14,7 @@
     text-decoration: underline;
 }
 #main{
-    background-color: rgba(165, 42, 42, 0.46);
+    background-color: rgba(159, 150, 88, 0.62);
     padding: 2em;
     border: 3px double white;
     color: white;
@@ -31,7 +31,7 @@
     border: 3px double white;
 }
 .lots{
-    background-color: dimgrey;
+    background-color: rgba(159, 150, 88, 0.62);
     padding: 3px;
 }
 .header{
@@ -42,19 +42,22 @@
 .lots>p{
     color: black;
 }
+.lots>hr{
+    width: 20%;
+}
 .h2 {
-    color: lightblue !important;
+    color: black !important;
     text-transform: uppercase;
 }
 .h1{
    font-style: italic;
     font-size: 2em;
-    color: blueviolet!important;
+    color: black!important;
 }
 .body {
     box-sizing: border-box;
     margin: 0;
-    background-color: rgba(222, 196, 55, 0.87);
+    background-color: rgba(159, 150, 88, 0.62);
 }
 @media screen and (min-width: 100px) and (max-width: 425px){
     .container{
